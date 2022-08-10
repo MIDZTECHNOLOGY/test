@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+div a{
+    flex-grow: 1;
+    height: 2rem;
+}
+div:nth-of-type(1){
+    display: flex;
+}
+div a:nth-of-type(1){
+    background: black;
+}
+div a:nth-of-type(2){
+    background: red;
+}
+div a:nth-of-type(3){
+    background: blue;
+}
+div a:nth-of-type(4){
+    background: yellow;
+}
